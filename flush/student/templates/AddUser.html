@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加账号</title>
+</head>
+<body>
+    <form action="/student/" method="post">
+        {% csrf_token %}
+        <p>账号：{{ f.u_id }} </p>
+        <p>密码：{{ f.u_pd }}</p>
+        <p>邮箱：{{ f.u_email }}</p>
+        <p>口令：{{ f.pd }}</p>
+        <input type="submit" value="提交">
+    </form>
+    <p>
+        {{ result }}
+    </p>
+</form>
+</body>
+</html>

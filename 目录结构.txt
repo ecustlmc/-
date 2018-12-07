@@ -1,0 +1,26 @@
+卷 OS 的文件夹 PATH 列表
+卷序列号为 B455-D75D
+C:\USERS\GINNM\DESKTOP\数据库PROJECT
+├─codeget
+├─code_cnn
+│  ├─gen_image
+│  ├─model
+│  ├─readme_image
+│  ├─sample
+│  │  ├─api
+│  │  ├─origin
+│  │  ├─test
+│  │  └─train
+│  └─__pycache__
+└─flush
+    ├─.idea
+    │  └─inspectionProfiles
+    ├─flush
+    │  └─__pycache__
+    ├─student
+    │  ├─migrations
+    │  │  └─__pycache__
+    │  ├─static
+    │  ├─templates
+    │  └─__pycache__
+    └─__pycache__

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加绑定学生</title>
+</head>
+<body>
+    <form action="/student/" method="post">
+        {% csrf_token %}
+        <p>学号：{{ f.s_id }} </p>
+        <p>姓名：{{ f.s_name }}</p>
+        <p>绑定账号：{{ f.u_id }}</p>
+        <p>教务密码: {{ f.jwc_pwd }}</p>
+        <p>口令：{{ f.pd }}</p>
+        <input type="submit" value="提交">
+    </form>
+    <p>
+        {{ result }}
+    </p>
+</body>
+</html>
